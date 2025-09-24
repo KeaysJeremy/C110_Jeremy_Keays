@@ -1,0 +1,7 @@
+first_name = int(input("Enter First Name:"))
+last_name = int(input("Enter Last Name:"))
+
+print("First Name:", first_name)
+print("First Name:", last_name)
+
+print("Hello", first_name, last_name, ", welcome to CTI-110")
