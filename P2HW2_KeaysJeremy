@@ -1,0 +1,20 @@
+# Jeremy Keays
+# 10/11/25
+# P2HW2
+# Calculates the sum and average of grades between modules
+
+mod1 = int(input("Enter grade for Module 1: "))
+mod2 = int(input("Enter grade for Module 2: "))
+mod3 = int(input("Enter grade for Module 3: "))
+mod4 = int(input("Enter grade for Module 4: "))
+mod5 = int(input("Enter grade for Module 5: "))
+mod6 = int(input("Enter grade for Module 6: "))
+
+grades = [mod1, mod2, mod3, mod4, mod5, mod6]
+
+print("--------Results--------", "\n")
+
+print("Your lowest grade is:", float(min(grades)))
+print("Your highest grade is:", float(max(grades)))
+print("Sum of Grades:", float(mod1+mod2+mod3+mod4+mod5+mod6))
+print("Grade Average:", float(mod1+mod2+mod3+mod4+mod5+mod6/6))
